@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Karve skills: find and assess UK jobs from your own Claude" width="100%">
+  <img src="assets/banner-light.svg" alt="Karve skills: find and assess UK jobs from your own Claude" width="100%">
 </p>
 
 <p align="center">
