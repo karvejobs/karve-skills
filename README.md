@@ -1,4 +1,20 @@
-# Karve skills
+<p align="center">
+  <img src="assets/banner.svg" alt="Karve skills: find and assess UK jobs from your own Claude" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://karvejobs.com"><img alt="Karve" src="https://img.shields.io/badge/karvejobs.com-E4572E?style=for-the-badge&labelColor=14110F"></a>
+  <a href="../../releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/karvejobs/karve-skills?style=for-the-badge&color=E4572E&labelColor=14110F"></a>
+  <a href="LICENSE"><img alt="MIT licence" src="https://img.shields.io/github/license/karvejobs/karve-skills?style=for-the-badge&color=E4572E&labelColor=14110F"></a>
+</p>
+
+<p align="center">
+  <b><a href="#adding-the-karve-connector">1. Add the connector</a></b> &nbsp;→&nbsp;
+  <b><a href="#installing-a-skill">2. Install a skill</a></b> &nbsp;→&nbsp;
+  <b><a href="#using-it">3. Ask for jobs</a></b>
+</p>
+
+---
 
 Claude skills for [Karve](https://karvejobs.com): find and assess UK jobs from your own Claude, using Karve's structured job data.
 
