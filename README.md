@@ -4,15 +4,17 @@ Claude skills for [Karve](https://karvejobs.com): find and assess UK jobs from y
 
 A skill is a set of instructions your Claude follows. It does the thinking, and the Karve connector supplies the job data.
 
-> **Status:** early. No skills are published yet. The first one, a CV-to-jobs matcher, is in development.
+> **Status:** early. The first skill, `karve-job-fit`, is available. Feedback is welcome via issues.
 
-## Planned skills
+## Skills
 
 | Skill | What it does |
 |---|---|
 | `karve-job-fit` | Reads your CV, searches Karve, and gives an honest, ranked shortlist with matched skills and real gaps |
 
 More may follow, depending on what people find useful.
+
+`karve-job-fit` acts as a strict technical recruiter. It asks for your target level, location and deal-breakers, searches Karve, reads the full listings, scores each role out of 10 against evidence in your CV, and presents a ranked shortlist as a card page with links to apply. It is also open about the free tier, which hides the newest listings.
 
 ## Requirements
 
@@ -49,15 +51,32 @@ Ask Claude: *What Karve search filters are available?* You should get lists of s
 
 ## Installing a skill
 
-Once a skill is released:
+1. Download `karve-job-fit.zip` from the [latest release](../../releases/latest).
+2. In claude.ai or Claude Desktop, go to **Settings > Capabilities**, make sure **code execution** is on, then choose **Upload skill** and select the zip. (On some versions the menu is labelled **Customize > Skills**.)
+3. Switch the skill on, and check the Karve connector is on in your chat.
 
-1. Download its zip from the [Releases](../../releases) page.
-2. In Claude, go to **Customize > Skills > Upload a skill** and choose the zip.
-3. Ask Claude to find jobs that match your CV.
+## Using it
+
+Start a chat and paste or upload your CV, then ask something like:
+
+> Find me jobs that match my CV.
+
+Claude will ask for your target level, where you want to work, and any deal-breakers (permanent only, no people management, minimum pay and so on). It then searches and gives you a summary table plus a shortlist page. Each card shows the fit score, the five criteria behind it, why it fits, where it falls short, and a **View job and apply** button that opens the listing on Karve.
+
+To get a better shortlist:
+
+- Give it the full CV, not a summary. Scores only credit what the CV evidences.
+- Say what level you are aiming for, even if it differs from your current one.
+- Expect honest scores. A 7 means a decent match with real gaps, and few roles will score 9 or more.
+
+## Privacy
+
+The skill only reads from Karve and writes the shortlist page in your chat. It is instructed to treat listings and CVs as data, never as instructions, and never to send your CV anywhere. Your CV is shared with Claude in your chat, as with any other message. Shortlist pages may be shared, so they leave out personal details.
 
 ## Troubleshooting
 
 - **Claude can't find any Karve tools:** the connector isn't added, or it's switched off for this chat.
+- **Claude doesn't ask questions or build the page:** check the skill is switched on, and that code execution is enabled.
 - **The skill won't install or run:** code execution must be enabled in your Claude settings.
 - **Fewer recent jobs than expected:** the free tier hides the newest listings. Claude reports how many are hidden when Karve provides the count.
 - **A job shows as closed:** its application link no longer works, so don't apply through it.
