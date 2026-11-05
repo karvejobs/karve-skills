@@ -1,0 +1,19 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#FBF8F4"/>
+  <g opacity="0.09" fill="#E4572E">
+    <polygon points="700,-40 1340,-40 1277,90 763,90"/>
+    <polygon points="790,150 1250,150 1186,270 854,270"/>
+    <polygon points="880,330 1160,330 1020,590"/>
+  </g>
+  <rect width="1280" height="14" fill="#E4572E"/>
+  <g transform="translate(100,200) scale(3.6)" fill="#E4572E" stroke="#E4572E" stroke-width="2.5" stroke-linejoin="round">
+    <polygon points="3,5 61,5 55.33,16 8.67,16"/>
+    <polygon points="12,22 52,22 46.44,32 17.56,32"/>
+    <polygon points="19.78,36 44.22,36 32,57"/>
+  </g>
+  <g font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="360" y="320" font-size="108" font-weight="700" fill="#14110F" letter-spacing="-2.5">Karve <tspan fill="#E4572E">skills</tspan></text>
+    <text x="364" y="388" font-size="34" fill="#5C554E">Find and assess UK jobs from your own Claude.</text>
+    <text x="364" y="450" font-size="30" fill="#8A8178" letter-spacing="0.5">karvejobs.com</text>
+  </g>
+</svg>
