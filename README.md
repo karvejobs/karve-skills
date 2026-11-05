@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://karvejobs.com"><img alt="Karve" src="https://img.shields.io/badge/karvejobs.com-E4572E?style=for-the-badge&labelColor=14110F"></a>
-  <a href="../../releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/karvejobs/karve-skills?style=for-the-badge&color=E4572E&labelColor=14110F"></a>
-  <a href="LICENSE"><img alt="MIT licence" src="https://img.shields.io/github/license/karvejobs/karve-skills?style=for-the-badge&color=E4572E&labelColor=14110F"></a>
+  <a href="https://karvejobs.com"><img alt="Karve" src="https://img.shields.io/badge/karvejobs.com-E4572E?style=for-the-badge&labelColor=FBF8F4"></a>
+  <a href="../../releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/karvejobs/karve-skills?style=for-the-badge&color=E4572E&labelColor=FBF8F4"></a>
+  <a href="LICENSE"><img alt="MIT licence" src="https://img.shields.io/github/license/karvejobs/karve-skills?style=for-the-badge&color=E4572E&labelColor=FBF8F4"></a>
 </p>
 
 <p align="center">
