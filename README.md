@@ -17,8 +17,16 @@ More may follow, depending on what people find useful.
 ## Requirements
 
 - Claude (claude.ai, Claude Desktop or Claude Code) with **code execution** enabled
-- The Karve connector added to your Claude
+- The Karve connector added to your Claude (see below)
 - A CV you're happy to share with your Claude
+
+## Adding the Karve connector
+
+In Claude, go to **Customize > Connectors**, add a custom connector, and enter:
+
+```
+https://karvejobs.com/mcp
+```
 
 ## Installing a skill
 
